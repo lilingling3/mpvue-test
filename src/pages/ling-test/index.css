@@ -1,0 +1,100 @@
+.box {
+  display: block;
+  width: 100rpx;
+  height: 200rpx;
+  background: yellow;
+  margin: 0 auto;
+}
+
+.hidden {
+  display: none;
+}
+
+textarea {
+  border: 1px solid;
+}
+
+button {
+  color: var(--orange);
+}
+
+image {
+  width: 82rpx;
+  height: 82rpx;
+}
+
+.phone-wrap {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+  align-items: center;
+  color: #666;
+}
+
+.cell {
+  width: 100%;
+  height: 100rpx;
+  box-sizing: border-box;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px solid var(--border);
+  color: #666;
+  font-size: 28rpx;
+  margin-bottom: 100rpx;
+}
+
+.cellRight {
+  font-size: 24rpx;
+  color: #999;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  width: 70%;
+}
+.center {
+  display: flex;
+  align-items: center;
+  font-size: 30rpx;
+}
+
+.cellArrow {
+  width: 18rpx;
+  height: 30rpx;
+  margin-left: 10rpx;
+  display: inline-block;
+}
+.pr20 {
+  padding-left: 20rpx;
+  padding-right: 20rpx;
+}
+
+.swiper-container {
+  width: 100%;
+}
+
+.swiper-item {
+  width: 100%;
+}
+
+.swiper-image {
+  width: 100%;
+  height: 100%;
+}
+.nav .active {
+  color: #fc975c;
+}
+.nav-item {
+  display: inline-block;
+  margin: 0 20rpx;
+  font-size: 32rpx;
+}
+.nav {
+  width: 100%;
+  margin: 0 10rpx;
+  height: 108rpx;
+  line-height: 108rpx;
+  overflow: hidden;
+  white-space: nowrap;
+  font-size: 0;
+}

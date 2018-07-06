@@ -1,0 +1,16 @@
+export const state = {
+  list:[],
+};
+
+export const getters = {};
+
+export const actions = {};
+
+export const mutations = {};
+
+export default {
+  state,
+  getters,
+  actions,
+  mutations,
+};

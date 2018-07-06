@@ -1,0 +1,4 @@
+.Card {
+  padding: 6px;
+  border: 1px solid var(--g-color, purple);
+}

@@ -1,0 +1,4 @@
+
+export const GET_CONTACT_LIST = 'GET_CONTACT_LIST';
+
+export const GET_TODAY_TASK = 'GET_TODAY_TASK';

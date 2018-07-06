@@ -1,0 +1,23 @@
+.counter_container{
+  display: flex;
+  padding: 25rpx 0;
+  flex-direction: row;
+  width: 100%;
+  justify-content: space-around;
+  font-size: 22rpx;
+}
+.counter_item{
+  flex-shrink: 1;
+  text-align: center;
+  color: #666;
+  white-space: nowrap;
+}
+.counter_number{
+  color: var(--orange);
+  font-size: 36rpx;
+  font-weight: bold;
+  line-height: 66rpx;
+}
+.counter_title{
+  font-size: 22rpx;
+}

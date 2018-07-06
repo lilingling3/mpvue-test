@@ -1,0 +1,12 @@
+
+.gBorder{
+  border:1px solid var(--gColor, pink);
+}
+
+.g-bd2{
+  border:1px solid red;
+}
+
+body{
+  --gColor:lightblue;
+}
